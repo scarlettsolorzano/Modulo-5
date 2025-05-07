@@ -40,7 +40,7 @@ function agregarLibro(titulo, autor, genero, disponible) {
 
 }
 
-// Función para cambiar la disponibilidad de un libro
+// Función para cambiar la disponibilidad de un libro :)
 function actualizarDisponibilidad(titulo, nuevoEstado) {
     setTimeout(() => {
         let libro = biblioteca.libros.find(l => l.titulo === titulo);
